@@ -6,6 +6,7 @@ The login page provides a secure and straightforward way for users to access the
 ## Signup Page
 
 New users can effortlessly create accounts on the signup page. Provide essential information such as a unique username, email address, and a secure password to enjoy all the benefits of AwesomeWebsite.
+![Uploading Screenshot (692).png…]()
 
 
 ## Contact Us Page
