@@ -46,26 +46,6 @@
     width: 95% !important;
     margin-left: 12px;
 }
-
-.home h3 {
-    text-align: center;
-}
-
-.custom-btn {
-    color: #d8672b;
-    border-radius: 5px;
-    padding: 10px 12px;
-    font-weight: 500;
-    background: transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
-    outline: none;
-}
-
-
 /* 14 */
 
 .btn-14 {
