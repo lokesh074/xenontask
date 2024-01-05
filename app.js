@@ -16,33 +16,6 @@ const sessions = require('express-session');
 
 const app = express();
 
-// Passport Config
-require('./config/passport')(passport);
-
-// DB Config
-const db = require('./config/keys').mongoURI;
-
-// Connect to MongoDB
-mongoose
-  .connect(
-    db,
-    { useNewUrlParser: true ,useUnifiedTopology: true}
-  )
-  .then(() => console.log('MongoDB Connected'))
-  .catch(err => console.log(err));
-
-  const store = new MongoDBStore({
-    uri: db,
-    collection: "mySessions",
-  });
-
-app.use((req, res, next)=>{
-  res.locals.moment = moment;
-  next();
-});
-// EJS
-// app.use(expressLayouts);
-app.set('view engine', 'ejs');
 
 // Express body parser
 app.use(express.urlencoded({ extended: true }));
