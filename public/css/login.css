@@ -7,17 +7,6 @@
     font-family: "Poppins", sans-serif;
 }
 
-body {
-    background:linear-gradient(to top right,#2a6791,black); ; 
-       background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    min-width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 main.container {
     background: white;
@@ -121,14 +110,3 @@ form input[type="submit"]:hover {
     background: linear-gradient(to right, #4776E6, #8e54e9);
 }
 
-.footer {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
-}
-
-.footer span {
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 1rem;
-    text-align: center;
-}
